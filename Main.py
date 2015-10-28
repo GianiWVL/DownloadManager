@@ -28,11 +28,15 @@ def main():
     os.mkdir(os.path.join(default_dir, foldername))
     default_dir = os.path.join(default_dir, foldername)
 
+    i = 1
     for img in images:
         img_src = "http:" + img["href"]
         filename = os.path.join(default_dir, img_src.split("/")[-1])
         saveImage(filename, img_src)
-        print("Saved: ", img_src, " in: ", default_dir)
+        print(i, "\tSaved: ", img_src, "\tin: ", default_dir)
+        i += 1
+
+    print("\nTotal images: ", i)
 
 
 if __name__ == "__main__":
