@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../crypto_algorithms/.idea/Crypto_Algorithms.iml" filepath="$PROJECT_DIR$/../crypto_algorithms/.idea/Crypto_Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DownloadManager.iml" filepath="$PROJECT_DIR$/.idea/DownloadManager.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Telegram Desktop/beveiligingsalgoritmes/.idea/beveiligingsalgoritmes.iml" filepath="$USER_HOME$/Downloads/Telegram Desktop/beveiligingsalgoritmes/.idea/beveiligingsalgoritmes.iml" />
     </modules>
   </component>
 </project>
